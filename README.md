@@ -17,13 +17,11 @@ Installing
 
 Below are the steps to install Snapworld.
 
-    1.  Setup your SSH keys for GitHub, instructions can be found here:
-        https://help.github.com/articles/generating-ssh-keys
-    2. % mkdir hanworks; cd hanworks
+    1. % mkdir hanworks; cd hanworks
         In your workspace create a directory called hanworks and change dir. 
-    3. % git clone git@github.com:snap-stanford/snapworld.git
+    2. % git clone https://github.com/snap-stanford/snapworld.git
         Clone the snapworld repository.
-    4. % cd snapworld; rake setup
+    3. % cd snapworld; rake setup
         This only needs to be run on initial setup, it pulls the other
         necessary repositiories, and builds the project.
 
